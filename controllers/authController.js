@@ -58,7 +58,7 @@ exports.autenticarusuario= async (req,res)=>{
    } catch (error) {
 
   
-    res.status(400).send("Hubo un error.")
+    res.status(400).send(error)
 
    }
 }
