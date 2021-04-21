@@ -2,7 +2,7 @@
 const Tarea =require('../models/Tarea')
 const Proyecto =require('../models/Proyecto')
 const {validationResult}=require('express-validator');
-const { restart } = require('nodemon');
+
 
 
 
