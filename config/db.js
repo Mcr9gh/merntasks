@@ -13,7 +13,7 @@ const conectarBD =async()=>{
             useFindAndModify:false,
             useCreateIndex:true
         })
-        console.log("BD Conectada");
+        console.log("BD Conectada D");
     } catch (error) {
         console.log(error);
     }
