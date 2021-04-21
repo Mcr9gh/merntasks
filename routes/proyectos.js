@@ -3,7 +3,7 @@
 
 const express = require('express');
 const router= express.Router();
-const ProyectoController = require("../controllers/ProyectoController");
+const ProyectoController = require("../controllers/proyectoController");
 const auth =require("../middleware/auth");
 const {check} =require("express-validator");
 
