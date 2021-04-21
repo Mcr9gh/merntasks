@@ -1,7 +1,7 @@
 
 const Proyecto =require('../models/Proyecto')
 const {validationResult}=require('express-validator');
-const { restart } = require('nodemon');
+//const { restart } = require('nodemon');
 
 
 
